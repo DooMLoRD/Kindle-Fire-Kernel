@@ -103,7 +103,7 @@ static struct omap_opp_def __initdata omap44xx_opp_def_list[] = {
 	/* MPU OPP3 - OPP-Turbo */
 	OMAP_OPP_DEF("mpu", true, 800000000, 1313000),
 	/* MPU OPP4 - OPP-SB */
-	OMAP_OPP_DEF("mpu", true, 1008000000, 1375000),
+	OMAP_OPP_DEF("mpu", true, 1200000000, 1375000),
 
 	/* IVA OPPLP - DPLL cascading */
 	OMAP_OPP_DEF("iva", true,  98304000, 1011000),
@@ -165,7 +165,7 @@ static struct omap_opp_def __initdata omap44xx_opp_def_list[] = {
 	/* SGX OPP1 - OPP50 */
 	OMAP_OPP_DEF("gpu", true, 153600000, 1025000),
 	/* SGX OPP2 - OPP100 */
-	OMAP_OPP_DEF("gpu", true, 307200000, 1200000),
+	OMAP_OPP_DEF("gpu", true, 384000000, 1200000),
 
 	/* HSI OPPLP - DPLL cascading */
 	OMAP_OPP_DEF("hsi", false, 98304000, 1005000),
