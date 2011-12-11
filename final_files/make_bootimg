@@ -1,0 +1,1 @@
+./mkbootimg --kernel zImage --ramdisk ramdisk.cpio.gz --cmdline "console=ttyO2,115200n8 mem=463M@0x80000000 init=/init vram=5M omapfb.vram=0:5M" --base 0x80000000 -o boot.img
